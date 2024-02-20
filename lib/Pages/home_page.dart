@@ -35,6 +35,10 @@ class HomePage extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              subtitle: Text(
+                'L a y o u t  u s i n g  S t a c k',
+                style: TextStyle(color: Colors.grey),
+              ),
               onTap: () {
                 Navigator.pushNamed(context, '/homepage');
               },
@@ -54,6 +58,10 @@ class HomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
+              ),
+              subtitle: Text(
+                'L i s t  -  S c r o l l  V i e w',
+                style: TextStyle(color: Colors.grey),
               ),
               onTap: () {
                 Navigator.pushNamed(context, '/settingspage');
@@ -75,6 +83,10 @@ class HomePage extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              subtitle: Text(
+                'N o t h i n g',
+                style: TextStyle(color: Colors.grey),
+              ),
               onTap: () {
                 Navigator.pushNamed(context, '/profilepage');
               },
@@ -95,6 +107,10 @@ class HomePage extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              subtitle: Text(
+                'S e t S t a t e ()',
+                style: TextStyle(color: Colors.grey),
+              ),
               onTap: () {
                 Navigator.pushNamed(context, '/counterpage');
               },
@@ -114,6 +130,10 @@ class HomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
+              ),
+              subtitle: Text(
+                'I n p u t  T e x t  -  F i e l d',
+                style: TextStyle(color: Colors.grey),
               ),
               onTap: () {
                 Navigator.pushNamed(context, '/textfieldpage');
